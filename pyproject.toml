@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "chat-documents"
+version = "0.1.0"
+description = "Chat with your documents using LangChain and Chainlit."
+authors = ["hoaiht <hthoai1006@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+chainlit = "^1.0.101"
+langchain = "^0.2.5"
+langchain-community = "^0.2.5"
+langgraph = "^0.0.69"
+langchain-openai = "^0.1.8"
+langchain-qdrant = "^0.1.1"
+langchain-voyageai = "^0.1.1"
+pillow = "^10.3.0"
+loguru = "^0.7.2"
+pydantic-settings = "^2.3.3"
+pypdf = "^4.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
