@@ -6,7 +6,7 @@ authors = ["hoaiht <hthoai1006@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.11"
 chainlit = "^1.0.101"
 langchain = "^0.2.5"
 langchain-community = "^0.2.5"
